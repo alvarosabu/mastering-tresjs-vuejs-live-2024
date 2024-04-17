@@ -28,6 +28,68 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0
 
+  excercises/basic-scene:
+    dependencies:
+      '@tresjs/cientos':
+        specifier: 4.0.0-next.0
+        version: 4.0.0-next.0(@tresjs/core@4.0.0-next.2)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23)
+      '@tresjs/core':
+        specifier: 4.0.0-next.2
+        version: 4.0.0-next.2(three@0.163.0)(vue@3.4.23)
+      '@types/three':
+        specifier: ^0.163.0
+        version: 0.163.0
+      three:
+        specifier: ^0.163.0
+        version: 0.163.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.23(typescript@5.4.5)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.2.9)(vue@3.4.23)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.4.5
+      vite:
+        specifier: ^5.2.0
+        version: 5.2.9
+      vue-tsc:
+        specifier: ^2.0.6
+        version: 2.0.13(typescript@5.4.5)
+
+  excercises/camera:
+    dependencies:
+      '@tresjs/cientos':
+        specifier: 4.0.0-next.0
+        version: 4.0.0-next.0(@tresjs/core@4.0.0-next.2)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23)
+      '@tresjs/core':
+        specifier: 4.0.0-next.2
+        version: 4.0.0-next.2(three@0.163.0)(vue@3.4.23)
+      '@types/three':
+        specifier: ^0.163.0
+        version: 0.163.0
+      three:
+        specifier: ^0.163.0
+        version: 0.163.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.23(typescript@5.4.5)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.2.9)(vue@3.4.23)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.4.5
+      vite:
+        specifier: ^5.2.0
+        version: 5.2.9
+      vue-tsc:
+        specifier: ^2.0.6
+        version: 2.0.13(typescript@5.4.5)
+
   excercises/starter:
     dependencies:
       '@tresjs/cientos':
