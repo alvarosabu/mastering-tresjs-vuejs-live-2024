@@ -1,0 +1,22 @@
+{
+  "name": "mastering-tresjs-vuejs-live-2024",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@tresjs/eslint-config": "^1.0.0",
+    "eslint": "^9.0.0",
+    "@types/three": "^0.163.0"
+  },
+  "dependencies": {
+    "@tresjs/cientos": "4.0.0-next.0",
+    "@tresjs/core": "4.0.0-next.2",
+    "three": "^0.163.0"
+  }
+}
