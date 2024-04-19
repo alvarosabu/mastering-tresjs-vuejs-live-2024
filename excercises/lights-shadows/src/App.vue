@@ -4,7 +4,7 @@ import Experience from './components/Experience.vue'
 </script>
 
 <template>
-  <TresCanvas window-size clear-color="#82DBC5">
+  <TresCanvas window-size clear-color="#000000" shadows>
     <Experience />
   </TresCanvas>
 </template>

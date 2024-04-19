@@ -8,7 +8,7 @@ import TorusKnot from './TorusKnot.vue'
 <template>
   <TresPerspectiveCamera :position="[5, 5, 5]" :look-at="[0,0,0]" />
   <TresMesh>
-    <TresBoxGeometry :args="[1,1,1]" :position="[0,1,0]" />
+    <TresBoxGeometry :args="[1,1,1]" />
     <TresMeshNormalMaterial  />
   </TresMesh>
   <Sphere />
