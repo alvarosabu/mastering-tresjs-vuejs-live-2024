@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@tresjs/cientos':
-        specifier: 4.0.0-next.0
-        version: 4.0.0-next.0(@tresjs/core@4.0.0-next.2)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23)
+        specifier: 3.8.0
+        version: 3.8.0(@tresjs/core@3.8.1)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23)
       '@tresjs/core':
-        specifier: 4.0.0-next.2
-        version: 4.0.0-next.2(three@0.163.0)(vue@3.4.23)
+        specifier: 3.8.1
+        version: 3.8.1(three@0.163.0)(vue@3.4.23)
       three:
         specifier: ^0.163.0
         version: 0.163.0
@@ -184,6 +184,37 @@ importers:
         version: 2.0.13(typescript@5.4.5)
 
   excercises/materials:
+    dependencies:
+      '@tresjs/cientos':
+        specifier: 4.0.0-next.0
+        version: 4.0.0-next.0(@tresjs/core@4.0.0-next.2)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23)
+      '@tresjs/core':
+        specifier: 4.0.0-next.2
+        version: 4.0.0-next.2(three@0.163.0)(vue@3.4.23)
+      '@types/three':
+        specifier: ^0.163.0
+        version: 0.163.0
+      three:
+        specifier: ^0.163.0
+        version: 0.163.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.23(typescript@5.4.5)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.2.9)(vue@3.4.23)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.4.5
+      vite:
+        specifier: ^5.2.0
+        version: 5.2.9
+      vue-tsc:
+        specifier: ^2.0.6
+        version: 2.0.13(typescript@5.4.5)
+
+  excercises/models:
     dependencies:
       '@tresjs/cientos':
         specifier: 4.0.0-next.0
@@ -968,6 +999,30 @@ packages:
       - typescript
     dev: true
 
+  /@tresjs/cientos@3.8.0(@tresjs/core@3.8.1)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23):
+    resolution: {integrity: sha512-m3lyrBHrHkwkDG28B/vQQUeQ9FlG5C50bkULYEoQXrpIAM8toC11DpxY6VMMvbFc4qhZA5QdTZIlznJ8ZDopFQ==}
+    peerDependencies:
+      '@tresjs/core': '>=3.2'
+      three: '>=0.133'
+      tweakpane: '>=3.0.0'
+      vue: '>=3.3'
+    dependencies:
+      '@tresjs/core': 3.8.1(three@0.163.0)(vue@3.4.23)
+      '@vueuse/core': 10.9.0(vue@3.4.23)
+      camera-controls: 2.8.3(three@0.163.0)
+      stats-gl: 2.2.8
+      stats.js: 0.17.0
+      three: 0.163.0
+      three-custom-shader-material: 5.4.0(three@0.163.0)
+      three-stdlib: 2.29.6(three@0.163.0)
+      tweakpane: 4.0.3
+      vue: 3.4.23(typescript@5.4.5)
+    transitivePeerDependencies:
+      - '@react-three/fiber'
+      - '@vue/composition-api'
+      - react
+    dev: false
+
   /@tresjs/cientos@4.0.0-next.0(@tresjs/core@4.0.0-next.2)(three@0.163.0)(tweakpane@4.0.3)(vue@3.4.23):
     resolution: {integrity: sha512-r/fSdVXUIFkwK2YOyo80LlbVbGpwDM9YpKd85wXYblVFeZn33eudJ5JrOlJECBCIqneNrxXr/QleRUiZ/EPnbw==}
     peerDependencies:
@@ -990,6 +1045,21 @@ packages:
       - '@react-three/fiber'
       - '@vue/composition-api'
       - react
+    dev: false
+
+  /@tresjs/core@3.8.1(three@0.163.0)(vue@3.4.23):
+    resolution: {integrity: sha512-47Ps/Ae/3SkdIWVk1qxJlK773nH+6pNCZc7eHc/6tRdqM07i6tOCx60ukdO2VxtDDOCn+CopZddlP3n7VsP9EA==}
+    peerDependencies:
+      three: '>=0.133'
+      vue: '>=3.3'
+    dependencies:
+      '@alvarosabu/utils': 3.2.0
+      '@vue/devtools-api': 6.6.1
+      '@vueuse/core': 10.9.0(vue@3.4.23)
+      three: 0.163.0
+      vue: 3.4.23(typescript@5.4.5)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
     dev: false
 
   /@tresjs/core@4.0.0-next.2(three@0.163.0)(vue@3.4.23):
